@@ -1,0 +1,16 @@
+{
+  "id": "app215-books-ai",
+  "name": "App215 Books AI",
+  "tagline": "AI-powered mobile solution",
+  "description": "AI-powered app215-books-ai application built for Aurora Market. Modern, responsive design with SaaS monetization.",
+  "category": "mobile",
+  "tags": ["ai", "mobile"],
+  "url": "https://auroramarket.org/app215-books-ai",
+  "demo": "https://21leahcimhtiek-oss.github.io/app215-books-ai",
+  "repo": "https://github.com/21leahcimhtiek-oss/app215-books-ai",
+  "stack": ["TypeScript", "Next.js", "React"],
+  "status": "mvp",
+  "version": "1.0.0",
+  "author": "Aurora Rayes LLC",
+  "license": "MIT"
+}
