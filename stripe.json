@@ -2,27 +2,63 @@
   "products": [
     {
       "id": "app215-books-ai_starter",
-      "name": "App215 Books AI Starter",
-      "description": "Get started with App215 Books AI",
+      "name": "Aurora Rayes Books Agent Starter",
+      "description": "Starter subscription placeholder for Aurora Rayes Books Agent",
       "mode": "subscription",
       "prices": [
-        { "id": "starter_monthly", "amount": 1900, "currency": "usd", "interval": "month" },
-        { "id": "starter_annual", "amount": 18900, "currency": "usd", "interval": "year" }
+        {
+          "id": "starter_monthly",
+          "amount": 1900,
+          "currency": "usd",
+          "interval": "month"
+        },
+        {
+          "id": "starter_annual",
+          "amount": 18900,
+          "currency": "usd",
+          "interval": "year"
+        }
       ],
-      "features": ["Core AI features", "5 users", "Email support"]
+      "features": [
+        "Core AI features",
+        "5 users",
+        "Email support"
+      ]
     },
     {
       "id": "app215-books-ai_pro",
-      "name": "App215 Books AI Pro",
-      "description": "Professional plan for App215 Books AI",
+      "name": "Aurora Rayes Books Agent Pro",
+      "description": "Professional subscription placeholder for Aurora Rayes Books Agent",
       "mode": "subscription",
       "prices": [
-        { "id": "pro_monthly", "amount": 4900, "currency": "usd", "interval": "month" },
-        { "id": "pro_annual", "amount": 47900, "currency": "usd", "interval": "year" }
+        {
+          "id": "pro_monthly",
+          "amount": 4900,
+          "currency": "usd",
+          "interval": "month"
+        },
+        {
+          "id": "pro_annual",
+          "amount": 47900,
+          "currency": "usd",
+          "interval": "year"
+        }
       ],
-      "features": ["All Starter features", "Unlimited users", "Priority support", "Advanced AI", "Custom integrations"]
+      "features": [
+        "All Starter features",
+        "Unlimited users",
+        "Priority support",
+        "Advanced AI",
+        "Custom integrations"
+      ]
     }
   ],
   "trial_days": 14,
-  "webhook_events": ["checkout.session.completed", "customer.subscription.updated", "customer.subscription.deleted"]
+  "webhook_events": [
+    "checkout.session.completed",
+    "customer.subscription.updated",
+    "customer.subscription.deleted"
+  ],
+  "payments_enabled_by_default": false,
+  "notes": "Use test-mode Stripe IDs first. Do not commit live keys or payment links."
 }

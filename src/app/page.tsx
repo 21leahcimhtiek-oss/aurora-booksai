@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950">
       <nav className="flex items-center justify-between px-6 py-4 border-b border-white/10">
-        <div className="text-xl font-bold text-white">ReadAI</div>
+        <div className="text-xl font-bold text-white">Aurora Rayes Books Agent</div>
         <div className="flex gap-4">
           <Link href="/pricing" className="text-gray-400 hover:text-white transition-colors">Pricing</Link>
           <Link href="/dashboard" className="bg-violet-600 hover:bg-violet-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
@@ -21,7 +21,7 @@ export default function Home() {
           AI book recommendations and reading assistant
         </h1>
         <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-          ReadAI uses advanced AI to give you personalized, actionable insights. Start free, upgrade when ready.
+          Aurora Rayes Books Agent uses advanced AI to give you personalized, actionable insights. Start free, upgrade when ready.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/dashboard" className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-colors">
@@ -67,7 +67,7 @@ export default function Home() {
       <section className="max-w-2xl mx-auto px-6 py-16 text-center">
         <div className="bg-violet-600/10 border border-violet-500/20 rounded-2xl p-10">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to get started?</h2>
-          <p className="text-gray-400 mb-8">Join thousands of users already using ReadAI.</p>
+          <p className="text-gray-400 mb-8">Join Aurora Rayes users building better books workflows with Aurora Rayes Books Agent.</p>
           <Link href="/dashboard" className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-colors inline-block">
             Start Free Today
           </Link>
@@ -75,7 +75,7 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-white/10 px-6 py-8 text-center text-gray-500 text-sm">
-        &copy; 2026 ReadAI. All rights reserved.
+        &copy; 2026 Aurora Rayes Books Agent. All rights reserved.
       </footer>
     </main>
   )

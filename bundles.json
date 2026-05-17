@@ -2,9 +2,11 @@
   "bundles": [
     {
       "id": "aurora-market-bundle",
-      "name": "Aurora Market Bundle",
-      "description": "Complete Aurora Market application suite",
-      "apps": ["app215-books-ai"],
+      "name": "Aurora Rayes AI Agent Bundle",
+      "description": "Placeholder bundle for Aurora Rayes ecosystem agents.",
+      "apps": [
+        "app215-books-ai"
+      ],
       "discount_percent": 20
     }
   ]

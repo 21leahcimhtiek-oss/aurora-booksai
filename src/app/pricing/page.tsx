@@ -4,7 +4,7 @@ export default function PricingPage() {
   return (
     <main className="min-h-screen bg-gray-950 text-white">
       <nav className="flex items-center justify-between px-6 py-4 border-b border-white/10">
-        <Link href="/" className="text-xl font-bold">ReadAI</Link>
+        <Link href="/" className="text-xl font-bold">Aurora Rayes Books Agent</Link>
         <Link href="/dashboard" className="bg-violet-600 hover:bg-violet-700 px-4 py-2 rounded-lg text-sm font-medium transition-colors">
           Get Started
         </Link>
