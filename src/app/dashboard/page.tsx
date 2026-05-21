@@ -28,7 +28,7 @@ export default function DashboardPage() {
   return (
     <main className="min-h-screen bg-gray-950 text-white">
       <nav className="flex items-center justify-between px-6 py-4 border-b border-white/10">
-        <Link href="/" className="text-xl font-bold">ReadAI</Link>
+        <Link href="/" className="text-xl font-bold">Aurora Rayes Books Agent</Link>
         <div className="flex items-center gap-4">
           <span className="text-sm text-gray-400">Free Plan</span>
           <Link href="/pricing" className="bg-violet-600 hover:bg-violet-700 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors">
@@ -38,7 +38,7 @@ export default function DashboardPage() {
       </nav>
       <div className="max-w-6xl mx-auto px-6 py-10">
         <h1 className="text-3xl font-bold mb-2">Welcome back</h1>
-        <p className="text-gray-400 mb-10">Your ReadAI AI assistant is ready.</p>
+        <p className="text-gray-400 mb-10">Your Aurora Rayes Books Agent AI assistant is ready.</p>
         <div className="grid md:grid-cols-3 gap-6 mb-10">
           <div className="bg-white/5 border border-white/10 rounded-xl p-6">
             <div className="text-gray-400 text-sm mb-1">Book recommendations</div>

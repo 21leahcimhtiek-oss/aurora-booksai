@@ -1,5 +1,22 @@
 {
   "id": "app215-books-ai",
+  "name": "Aurora Rayes Books Agent",
+  "tagline": "AI book recommendations and reading assistant",
+  "description": "Aurora Rayes Books Agent is an Aurora Rayes ecosystem product for readers, book clubs, coaches, educators, and content teams.",
+  "category": "books",
+  "tags": [
+    "aurora-rayes",
+    "ai",
+    "books"
+  ],
+  "url": "https://aurora-booksai.example",
+  "demo": "https://aurora-booksai.example/demo",
+  "repo": "https://github.com/21leahcimhtiek-oss/aurora-booksai",
+  "stack": [
+    "TypeScript",
+    "Next.js",
+    "React"
+  ],
   "name": "App215 Books AI",
   "tagline": "AI-powered mobile solution",
   "description": "Part of the Aurora ecosystem, aurora-booksai delivers a no-key-first AI experience.",
