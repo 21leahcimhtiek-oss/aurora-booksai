@@ -36,3 +36,12 @@ Aurora Rayes Books Agent is an Aurora Rayes ecosystem product for readers, book 
 
 ## Payment safety
 No live payment links are included. Do not add checkout URLs or live Stripe keys to source control.
+# SELL
+
+## Aurora Positioning
+aurora-booksai is positioned as a focused Aurora ecosystem product with practical, domain-specific outcomes.
+
+## Offer Structure
+- Core experience with a no-key-first onboarding path
+- Optional premium features for advanced users
+- B2B and API packaging where applicable
