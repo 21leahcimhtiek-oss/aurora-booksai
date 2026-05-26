@@ -40,10 +40,25 @@ npm run dev
 
 Set only local or test credentials while developing. Live payment credentials and hosted checkout links are intentionally absent from this repository.
 
+### Validation commands
+
+```bash
+npm run lint
+npm run typecheck
+npm run build
+```
+
+Run `npm run check` to execute the full local production gate.
+
 ## Environment and payment safety
 
 Required for AI responses:
 - `OPENAI_API_KEY`
+- `OPENAI_MODEL` (optional, defaults to `gpt-4o-mini`)
+
+No-key-first behavior:
+- If `OPENAI_API_KEY` is not set, the chat API returns structured, local guidance instead of calling external AI services.
+- This keeps local onboarding functional before adding paid API credentials.
 
 Required only when enabling checkout:
 - `CHECKOUT_ENABLED=true`
@@ -55,6 +70,11 @@ Required only when enabling checkout:
 - `NEXT_PUBLIC_APP_URL`
 
 Checkout remains disabled unless `CHECKOUT_ENABLED` is explicitly set to `true` and real Stripe values are configured outside source control.
+
+## Privacy-first defaults
+- `NEXT_TELEMETRY_DISABLED=1` is enabled in `.env.example`.
+- Keep `APP_DATA_RETENTION_DAYS=0` unless your compliance workflow requires storage.
+- Never commit real API keys, webhook secrets, or customer PII into this repository.
 
 ## Pricing placeholders
 
@@ -81,4 +101,3 @@ This repository is part of the Aurora ecosystem of focused AI products, aligned 
 
 ## No-Key-First Experience
 Aurora products prioritize a no-key-first onboarding path so users can start with core functionality before adding external API keys or credentials.
-
